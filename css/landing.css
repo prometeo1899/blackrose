@@ -270,6 +270,7 @@ padding: 1rem;
 
 .redes img{
    width: 3rem;
+   box-sizing: border-box;
 }
 .redes img:hover{
    border: 1px solid white;
