@@ -356,8 +356,17 @@ padding: 1rem;
   
 }
 @media all and (max-width:350px){
+  .nav .menu .main-menu{
+    display: none;
+  }
+  .contain{
+    width: 50%;
+  }
   .redes img{
     width: 30px;
     gap: 0.5rem;
   }
+  .final{
+    width: 80%;
+}
 }
