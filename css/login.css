@@ -162,18 +162,26 @@ p:hover{
         justify-content: center;
         margin-left: 0;
         margin-top: 1rem;
+        width: 20rem;
        
       
     }
-
+.abso{
+    margin: 0;
+}
     .abso img{
         width: 10rem;
+        margin-top: 0;
     }
     .abajo{
         margin-top: 1rem;
     }
     form{
         margin-top: 5rem;
+        width: 18rem;
+    }
+    label input{
+        width: 15rem;
     }
  
 }
