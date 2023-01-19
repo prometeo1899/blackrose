@@ -162,7 +162,7 @@ p:hover{
         justify-content: center;
         margin-left: 0;
         margin-top: 1rem;
-        width: 60%;
+        width: 70vw;
        
       
     }
@@ -182,7 +182,7 @@ p:hover{
    
     }
     label input{
-        width: 15rem;
+        width: 50vw;
     }
  
 }
