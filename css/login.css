@@ -1,9 +1,12 @@
 body{
-    background-image: url(https://fondosmil.com/fondo/25777.jpg);
-    background-size: 100%;
+    background: url(https://fondosmil.com/fondo/25777.jpg) center center no-repeat fixed;
+    background-size: cover;
+
 }
 .contain{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
   
 }
 .section1{
@@ -12,7 +15,7 @@ body{
     width: 27rem;
     height: 30rem;
     background-color: rgba(248, 245, 245, 0.541);
-    margin-left: 12rem;
+    margin-left: 6rem;
     margin-top: 6rem;
     border-radius: 2rem ;
     position: relative;
@@ -121,11 +124,7 @@ p:hover{
 .check span{
     font-weight: 600;
 }
-.abso{
-    position: absolute;
-    top:-2rem ;
-    left: 43rem;
-}
+
 
 .abso img{
     width: 33rem;
@@ -151,4 +150,31 @@ p:hover{
     
 }
 .abajo p a{
+}
+@media all and (max-width:1000px){
+    .contain{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 1rem;
+       
+      
+    }
+    .abso{
+      
+    }
+    .abso img{
+        width: 10rem;
+    }
+    .abajo{
+        margin-top: 6rem;
+    }
+    form{
+        margin-top: 7rem;
+    }
 }
