@@ -318,7 +318,7 @@ padding: 1rem;
 }
 
 .redes img{
-   width: 3rem;
+   width: 40px;
    box-sizing: border-box;
 }
 .redes img:hover{
@@ -335,7 +335,7 @@ padding: 1rem;
     gap: 5rem;
   }
 }
-@media all and (max-width:900px){
+@media all and (max-width:800px){
   .section-home{
    display: flex;
    flex-direction: column;
@@ -354,4 +354,10 @@ padding: 1rem;
     display: flex;
   }
   
+}
+@media all and (max-width:350px){
+  .redes img{
+    width: 30px;
+    gap: 0.5rem;
+  }
 }
