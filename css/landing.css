@@ -369,4 +369,10 @@ padding: 1rem;
   .final{
     width: 80%;
 }
+.get2 .btn-a{
+width: 2rem;
+}
+.get2 .btn-b{
+  width: 1rem;
+  }
 }
