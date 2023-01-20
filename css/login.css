@@ -137,7 +137,6 @@ p:hover{
     padding: 0.5;
     margin-top: 2rem;
     border-radius: 1rem;
-   
     width: 100%;
 }
 .abajo p {
@@ -149,8 +148,7 @@ p:hover{
     margin-left: 6rem;
     
 }
-.abajo p a{
-}
+
 @media all and (max-width:800px){
     .contain{
         display: flex;
@@ -162,6 +160,7 @@ p:hover{
         justify-content: center;
         margin-left: 0;
         margin-top: 1rem;
+        max-width: 25rem;
         width: 70vw;
        
       
@@ -174,15 +173,32 @@ p:hover{
         margin-top: 0;
     }
     .abajo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 1rem;
+        height: 2rem;
+    }
+    .abajo p{
+     
+       display: flex;
+       justify-self: center;
+       align-self: center;
+       margin-left: 0;
     }
     form{
         margin-top: 5rem;
-        width: 60vw;
+        width: 70vw;
    
     }
     label input{
-        width: 50vw;
+        width: 60vw;
     }
+   .check{
  
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 }
