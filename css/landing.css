@@ -362,6 +362,7 @@ margin-top: 1rem;
     
   }
   .ba a {
+    display: none;
     border-left: none;
   }
   .be a {
