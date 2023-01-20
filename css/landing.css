@@ -357,9 +357,26 @@ margin-top: 1rem;
   
 }
 @media all and (max-width:800px){
-  .nav .menu .main-menu{
-    display: none;
+  .menu .main-menu{
+    width: 100vw;
+    
   }
+  .ba a {
+    border-left: none;
+  }
+  .be a {
+    border-left: none;
+  }
+  .bi a {
+    border-left: none;
+  }
+  .bo a {
+    border-left: none;
+  }
+  .bu a {
+    border-left: none;
+  }
+
   .contain{
     width: 100%;
   }
