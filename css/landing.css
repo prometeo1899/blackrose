@@ -328,6 +328,7 @@ padding: 1rem;
 .final{
   display: flex;
   align-items: center;
+  justify-content: center;
   gap:0.5rem;
 }
 @media all and (max-width:1090px){
@@ -362,9 +363,18 @@ padding: 1rem;
   .contain{
     width: 100%;
   }
+
+  .contain h2{
+    font-size: 30px;
+  }
+  .contain span {
+    font-size: 20px;
+    margin-left: 0;
+  }
   .redes img{
     width: 30px;
     gap: 0.5rem;
+    padding: 0;
   }
   .final{
     width: 80%;
