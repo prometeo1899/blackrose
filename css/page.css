@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
  body{
-   background-image: url(https://fondosmil.com/fondo/25777.jpg);
-   background-size: 100%;
+   background: url(https://fondosmil.com/fondo/25777.jpg) center center fixed;
+   background-size:cover;
  }
 
  .nav{
@@ -76,12 +76,16 @@
   
  }
 
-
+.versace{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
  h1{
    font-family: 'Playfair Display', serif;
    color: white;
    font-style: italic;
-  margin-left: 37rem;
+
  }
 
  p{
@@ -103,8 +107,7 @@ padding: 1rem;
    box-sizing: border-box;
 }
 .redes img:hover{
-   border: 1px solid white;
-   border-radius: 1rem;
+ opacity: 0.1;
 }
 
 .container{
@@ -153,6 +156,7 @@ padding: 1rem;
 
 
 .image2 img{
+   
     margin-top: 1rem;
     cursor: pointer;
 }
@@ -188,4 +192,118 @@ padding: 1rem;
     width: 10rem;
     padding: 1rem;}
     
+    @media all and (max-width:1400px) {
+      .nav img {
+         width: 3rem;
+         margin-top: 2rem;
+      }
 
+    }
+    @media all and (max-width:1300px){
+      .nav img { display: none;}
+      .container{
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+      }
+      .image1{
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin: auto;
+    background-color: rgba(253, 249, 249, 0.164);
+
+    border-radius: 2rem;}
+    .image1 img{
+      width: 20rem;
+      margin-top: 2rem;
+    }
+
+    .image1 p{
+      width: 20rem;
+    }
+    .image2{
+display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin: auto;
+ background-color: rgba(253, 249, 249, 0.164);
+ width: 24rem;
+ border-radius: 2rem;}
+ .image2 img{
+   width: 20rem;
+   margin-top: 2rem;
+ }
+
+ .image2 p{
+   width: 20rem;
+ }
+ .image3{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(253, 249, 249, 0.164);
+    width: 24rem;
+    border-radius: 2rem;}
+    .image3 img{
+      width: 20rem;
+      margin-top: 2rem;
+    }
+   
+    .image3 p{
+      width: 20rem;
+    }
+     .be {
+      display: none;
+     }
+      }
+   
+      @media all and (max-width:1000px){
+         .bi{
+            display: none;
+         }
+      }
+      @media all and (max-width:800px){
+         .bo{
+            display: none;
+         }
+         .bu{
+            display: none;
+         }
+      .ba a{
+         border: none;
+         justify-self: center;
+         margin: 0;
+     }
+  .nav   {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+          li a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            align-self: center;
+            justify-self: center;
+            
+          }
+          .redes{
+            margin-top: 0;
+            gap: 0.5rem;
+          }
+          .redes img{
+            width: 30px;
+            gap: 0.5rem;
+            padding: 0;
+          }
+      }
+
+      
